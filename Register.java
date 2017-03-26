@@ -30,7 +30,7 @@ public class Register extends HttpServlet {
 			Class.forName("com.mysql.jdbc.Driver");
 
 			// creating connection with the database
-			Connection con = DriverManager.getConnection("jdbc:mysql:/ /localhost:3306/test", "root", "070899");
+			Connection con = DriverManager.getConnection("jdbc:mysql:/ /localhost:3306/users", "root", "070899");
 
 			PreparedStatement ps = con.prepareStatement("insert into users values(?,?,?,?)");
 
