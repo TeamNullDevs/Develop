@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * Controller for {@link net.websearch.springsecurityapp.model.User}'s pages.
  *
- * @author Eugene Suleimanov
+ * @author Nazar Kulyk
  * @version 1.0
  */
 
